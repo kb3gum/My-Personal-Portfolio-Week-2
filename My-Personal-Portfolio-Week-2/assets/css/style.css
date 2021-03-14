@@ -1,0 +1,47 @@
+html {
+  background: url(../images/flower.JPG) no-repeat center fixed;
+  background-size: cover;
+  background-origin: content-box;
+  background-position: 50%, 50%;
+}
+
+body {
+  color: white;
+}
+.text {
+  font-size: 25px;
+  color: white;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.header {
+  color: white;
+}
+
+.container {
+  color: white;
+}
+
+a:hover {
+  background-color: cadetblue;
+}
+
+@media (min-width: 768px) {
+  .nav li {
+    padding: 10px;
+    background: seashell;
+    margin: 10px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer {
+}

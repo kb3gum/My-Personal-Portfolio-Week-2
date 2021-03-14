@@ -1,0 +1,25 @@
+:root {
+  --white: #ffffff;
+  --coral: coral;
+  --pink: pink;
+}
+
+a:hover {
+  background-color: cadetblue;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 10px;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--coral);
+}

@@ -1,0 +1,77 @@
+/* media screen variables applied to page for colour and accesbility across different devices */
+
+:root {
+  --white: #ffffff;
+  --coral: coral;
+  --pink: pink;
+}
+a:hover {
+  background-color: cadetblue;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 10px;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--coral);
+}
+
+/* flex box added to diffentiate different CSS styling and properties to each targeted section- media queries applied for different screen sizes */
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.flex-container div {
+  background-color: var(--pink);
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  font-size: larger;
+  margin: 50px;
+  padding: 50px;
+}
+
+#portfolio-1 {
+  background-image: url(../images/webpage-after-refactor.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  font-size: large;
+  font-weight: 900;
+  text-shadow: 2px 2px black;
+}
+@media only screen and (max-width: 532px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+  }
+
+  .flex-container div {
+    margin: 20px;
+    padding: 20px;
+  }
+}

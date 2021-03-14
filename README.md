@@ -31,4 +31,4 @@ To create my own personal portfolio based on skills gained during this bootcamp 
 
 ## Link to deployed application
 
-Click [here](https://kb3gum.github.io/My-Personal-Portfolio-Week-2/) to view project on GitHub pages.
+Click [here](https://kb3gum.github.io/My-Personal-Portfolio-Week-2/) to view my portfolio on GitHub pages.

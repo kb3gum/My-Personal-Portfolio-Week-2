@@ -21,14 +21,14 @@ To create my own personal portfolio based on skills gained during this bootcamp 
 
 ## Screenshots
 
-![alt text](My-Personal-Portfolio-Week-2\assets\images\homepage.png)
+![alt text](My-Personal-Portfolio-Week-2/assets/images/homepage.png)
 
-![alt text](My-Personal-Portfolio-Week-2\assets\images\about-me.png)
+![alt text](My-Personal-Portfolio-Week-2/assets/images/about-me.png)
 
-![alt text](My-Personal-Portfolio-Week-2\assets\images\portfolio-page.png)
+![alt text](My-Personal-Portfolio-Week-2/assets/images/portfolio-page.png)
 
-![alt text](My-Personal-Portfolio-Week-2\assets\images\contact.png)
+![alt text](My-Personal-Portfolio-Week-2/assets/images/contact.png)
 
 ## Link to deployed application
 
-https://kb3gum.github.io/My-Personal-Portfolio-Week-2/.
+Click [here](https://kb3gum.github.io/My-Personal-Portfolio-Week-2/) to view project on GitHub pages.
